@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	height: 730px;
+	width: 100;
+	background-image: url(../img/3.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: center center;
+	position: relative;
+}
+#wrap1 {
+	height: 730px;
+	width: 100;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: center center;
+	position: relative;
+}

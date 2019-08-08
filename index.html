@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+    <title>Hello, world!</title>
+        <style type="text/css">
+    	body
+    	{margin-top:70px;border:1px}
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+    </style>
+  </head>
+  <body>
+  <!-- 灰底黑字 -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">
+  	<img alt="Brand" src="img/logo.png" width=100px height=40px>
+  </a>
+ 
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">主界面</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="biaoge.html">表格格</a>
+    </li>
+ 
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       下拉菜单
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="xinxi.html">信息采集</a>
+        <a class="dropdown-item" href="liuyan.html">人生箴言</a>
+        <a class="dropdown-item" href="#">柱状图</a>
+        <a class="dropdown-item" href="#">404</a>
+      </div>
+      
+      
+  </ul>
+  <ul class="navbar-nav ml-auto">
+    <li>
+      	<form class="form-inline float-md-right">    
+   	    <input class="form-control" type="text" placeholder="Search">    
+   		  <button class="btn btn-success" type="button">Search</button>  
+        </form>
+     </li>
+   <li class="nav-item">
+      <a class="nav-link" href="demo.html">退出</a>
+   </li>
+  </ul>
+
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/h1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/h2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/h3.jpg">
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+</div>
+
+<div class="container.">
+<p></p>
+  <h1 class="display-3"><p class="text-center"><b>戊寅 丙辰 壬辰</h1>
+  <p class="text-center">1998.03.19</p>
+</div>
+
+<!-- /services -->
+<br>
+<center><div class="container">
+  <h2>药丸形状徽章</h2>
+  <span class="badge badge-pill badge-default">默认</span>
+  <span class="badge badge-pill badge-primary">主要</span>
+  <span class="badge badge-pill badge-success">成功</span>
+  <span class="badge badge-pill badge-info">信息</span>
+  <span class="badge badge-pill badge-warning">警告</span>
+  <span class="badge badge-pill badge-danger">危险</span>
+</div>
+<br>
+<div class="container">
+  <h2>多种颜色的进度条</h2>
+  <p>Bootstrap4 提供了以下几种进度条颜色:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:30%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:40%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:50%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:60%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:70%"></div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <h2>提示框动画</h2>
+  <p>.fade 和 .show 类用于设置提示框在关闭时的淡出和淡入效果：</p>
+  <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>成功!</strong> 指定操作成功提示信息。
+  </div>
+  <div class="alert alert-info alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>信息!</strong> 请注意这个信息。
+  </div>
+  <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>警告!</strong> 设置警告信息。
+  </div>
+  <div class="alert alert-danger alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>错误!</strong> 失败的操作。
+  </div>
+  <div class="alert alert-primary alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>首选!</strong> 这是一个重要的操作信息。
+  </div>
+  <div class="alert alert-secondary alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>次要的!</strong> 显示一些不重要的信息。
+  </div>
+  <div class="alert alert-dark alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>深灰色!</strong> 深灰色提示框。
+  </div>
+  <div class="alert alert-light alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>浅灰色!</strong>浅灰色提示框。
+  </div>
+</div>
+<br>
+<div class="container">
+  <h2>边框颜色</h2>
+  <p>Bootstrap4 提供了一些类来设置边框颜色:</p> 
+  <span class="border border-primary">1</span>
+  <span class="border border-secondary">2</span>
+  <span class="border border-success">3</span>
+  <span class="border border-danger">4</span>
+  <span class="border border-warning">5</span>
+  <span class="border border-info">6</span>
+  <span class="border border-dark">7</span>
+ 
+</div>
+<br>
+ <div class="container">
+  <h2>椭圆图片</h2>
+  <p>.rounded-circle 类可以设置椭圆形图片:</p>            
+  <img src="img/fj1.jpg" class="rounded-circle" alt="Cinque Terre" width="30%" height="30%"> 
+  <img src="img/fj2.jpg" class="rounded-circle" alt="Cinque Terre" width="30%" height="30%"> 
+  <img src="img/fj3.jpg" class="rounded-circle" alt="Cinque Terre" width="30%" height="30%"> 
+</div>
+</center>
+<br>
+	
+<!-- footer -->
+<footer class="bg-dark ">
+    <div class="container">
+    	<br>
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">84725932@qq.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+13313000873</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">北京交通大学海滨学院</p>
+        </div>
+      </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©2019
+       a design by <a href="#">Ahh-dd</a></p>
+       <br>
+               <a href="#"><img src="img/wb.ico" width="30px" height="30px"></a>&nbsp;
+						   <a href="#"><img src="img/tt.ico" width="30px" height="30px"></a>   
+						   
+  </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

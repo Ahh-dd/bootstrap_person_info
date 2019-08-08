@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+
+    <title>Hello, world!</title>
+        <style type="text/css">
+    	body
+    	{margin-top:70px;border:1px}
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      }
+    	#wrap {
+	height: 660px;
+	width: 100;
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: center center;
+	position: relative;
+}
+
+        .Content-Main{
+
+            max-width: 500px;
+
+            margin: auto;
+
+            border: none;
+
+            border-radius: 5px; 
+
+            -moz-border-radius: 5px;
+
+            -webkit-border-radius: 5px;
+
+            font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+            text-shadow: 1px 1px 1px #444;
+
+            color: #D3D3D3;
+
+            background: #555;
+
+        }
+
+        .Content-Main h1{
+
+            padding: 8px 0px 40px 10px;
+
+            display: block;
+
+            border-bottom: 1px solid #444;
+
+        }
+
+        .text1{
+
+            margin-left: 3px;
+
+        }
+
+        .Content-Main label{
+
+            margin: 0px 0px 5px;
+
+            display: block;
+
+        }
+
+        .fileInputContainer{
+
+            height: 99px;
+
+            width: 99px;
+
+            margin: 20px 20px 20px 20px ;
+
+            border: none;
+
+            background: url(img/tx.jpg);
+            background-size:100% 100%;
+
+            overflow: hidden; 
+
+            position: relative; 
+
+        }
+
+        .fileInput{
+
+            height: 106px;
+
+            border: none;
+
+            font-size: 300px;
+
+            opacity: 0;  
+
+            filter:alpha(opacity=0);
+
+            cursor: pointer;
+
+            position: absolute;
+
+        }
+
+        .Content-Main label>span{
+
+            width: 20%;
+
+            float: left;
+
+            text-align: right;
+
+            padding-right: 10px;
+
+            margin-top: 10px;
+
+            font-weight: bold;
+
+        }
+
+        .Main-sex{
+
+            padding-right: 13px;
+
+            padding-bottom: 13px;
+
+            font-weight: bold;
+
+            line-height: 4px; 
+
+        }
+
+        .Main-sex input[type=checkbox]{
+
+            margin-top:6px;
+
+            vertical-align:middle; 
+
+        }
+
+        .Content-Main input[type="text"],.Content-Main input[type="email"],.Content-Main textarea{
+
+            height: 25px;
+
+            width: 70%;
+
+            line-height: 15px;
+
+            padding: 5px 0px 5px 5px; 
+
+            margin-bottom: 16px;
+
+            margin-right: 6px;
+
+            margin-top: 2px;
+
+            border: none;
+
+            border-radius:2px;
+
+            -webkit-border-radius:2px;
+
+            -moz-border-radius:2px;
+
+            outline: 0 none; 
+
+            background:  #DFDFDF;
+
+            color: #525252;
+
+        }
+
+        .Content-Main textarea{
+
+            height: 100px;
+
+            width: 70%;
+
+            padding: 5px 0px 0px 5px;
+
+        }
+
+        .Content-Main .button{
+
+            padding: 8px 24px 8px 24px;
+
+            margin-bottom: 8px;
+
+            border: none;
+
+            border-radius: 4px;
+
+            -moz-border-radius: 4px;
+
+            -webkit-border-radius: 4px;
+
+            font-weight: bold;
+
+            text-shadow: 1px 1px 1px #FFE477;
+
+            box-shadow: 1px 1px 1px  #3D3D3D;
+
+            -moz-box-shadow: 1px 1px 1px  #3D3D3D;
+
+            -webkit-box-shadow: 1px 1px 1px  #3D3D3D;
+
+            color: #585858;
+
+            background: #f6ff0a;
+
+        }
+
+        .Content-Main .button:hover{
+
+            color:  #333;
+
+            background-color:  #EBEBEB ;
+
+        }
+
+
+    </style>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">
+  	<img alt="Brand" src="img/logo.png" width=100px height=40px>
+  </a>
+ 
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">主界面</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="biaoge.html">表格格</a>
+    </li>
+ 
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       下拉菜单
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="xinxi.html">信息采集</a>
+        <a class="dropdown-item" href="liuyan.html">人生箴言</a>
+        <a class="dropdown-item" href="zhuzhuang.html">柱状图</a>
+        <a class="dropdown-item" href="404.html">404</a>
+      </div>
+  </ul>
+    </ul>
+  <ul class="navbar-nav ml-auto">
+    <li>
+      	<form class="form-inline float-md-right">    
+   	    <input class="form-control" type="text" placeholder="Search">    
+   		  <button class="btn btn-success" type="button">Search</button>  
+        </form>
+     </li>
+   <li class="nav-item">
+      <a class="nav-link" href="demo.html">退出</a>
+   </li>
+  </ul>
+</nav>
+
+
+
+<div class="wrap" id="wrap">
+<div class="Content-Main">
+
+            <form  action="" method="post" class="form-userInfo">
+
+                <h1>个人信息</h1>
+                <span class="text1">请在文本框中完善您的个人信息：</span>
+                <p>
+                <div class="fileInputContainer">
+                    <input class="fileInput" id="" type="file" name="">
+                </div>
+                <label>
+                    <span>Your name:</span>
+                    <input type="text"  name="name" placeholder="Your Full Name">
+                </label>
+                <label class="Main-sex">
+                    <span>Your sex:</span>
+                    <input type="checkbox" class="man">男
+                    <input type="checkbox" class="women">女
+                </label>
+                <label>
+                    <span>Your email :</span>
+                    <input type="email" name="email" placeholder="@.com">
+                </label>
+                <label>
+                    <span>Your phone:</span>
+                    <input type="text" name="phone" placeholder="Please input 11 number">
+                </label>
+                <label>
+                    <span>Message:</span>
+                    <textarea id="message" name="message" placeholder="Your message to us"></textarea>
+                </label>
+                <label>
+                    <input type="button" class="button" value="提交">
+                </label>
+            </form>
+        </div>
+<div>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
